@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Drum Kit</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer scr="javascript/script.js"></script>
+</head>
+
+<body>
+
+  <div class="background">
+
+    <!-- <h1>Hello World</h1> -->
+    <!-- <h2><%= text %></h2> -->
+    <!-- <img src="images/whiplash.png" alt="whiplash"> -->
+
+    <div class="keys">
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">CIHat01</span>
+      </div>
+      <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound">CIHat02</span>
+      </div>
+      <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">Kick01</span>
+      </div>
+      <div data-key="70" class="key">
+        <kbd>F</kbd>
+        <span class="sound">Kick02</span>
+      </div>
+      <div data-key="71" class="key">
+        <kbd>G</kbd>
+        <span class="sound">OpHat</span>
+      </div>
+      <div data-key="72" class="key">
+        <kbd>H</kbd>
+        <span class="sound">Snr01</span>
+      </div>
+      <div data-key="74" class="key">
+        <kbd>J</kbd>
+        <span class="sound">Snr02</span>
+      </div>
+      <div data-key="75" class="key">
+        <kbd>K</kbd>
+        <span class="sound">Snr03</span>
+      </div>
+    </div>
+
+    <audio data-key="65" src="sounds/CIHat01.wav"></audio>
+    <audio data-key="83" src="sounds/CIHat02.wav"></audio>
+    <audio data-key="68" src="sounds/Kick01.wav"></audio>
+    <audio data-key="70" src="sounds/Kick02.wav"></audio>
+    <audio data-key="71" src="sounds/OpHat.wav"></audio>
+    <audio data-key="72" src="sounds/Snr01.wav"></audio>
+    <audio data-key="74" src="sounds/Snr02.wav"></audio>
+    <audio data-key="75" src="sounds/Snr03.wav"></audio>
+
+    <!-- <a href="/about">About Page</a> -->
+
+  </div>
+
+</body>
+</html>
